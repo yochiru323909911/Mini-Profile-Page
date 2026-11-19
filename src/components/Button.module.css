@@ -1,0 +1,45 @@
+.button {
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 18px;
+  color: #fff;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:focus-visible {
+  outline: 3px solid #172033;
+  outline-offset: 3px;
+}
+
+.friend {
+  background-color: #16834b;
+}
+
+.friend:hover {
+  background-color: #11683b;
+}
+
+.teacher {
+  background-color: #2563c7;
+}
+
+.teacher:hover {
+  background-color: #1d4fa3;
+}
+
+.student {
+  background-color: #7c3aed;
+}
+
+.student:hover {
+  background-color: #6528c5;
+}
